@@ -85,3 +85,13 @@ The keyboard layouts are generated from freedesktop.org's
 world's keyboards in one place. Thank you, [NonaSuomy](https://github.com/NonaSuomy), for many of the ideas behind
 the HID work. Everyone this project builds on:
 [ATTRIBUTIONS.md](https://github.com/p1ngb4ck/esphome/blob/dev/ATTRIBUTIONS.md).
+
+## Branch structure
+
+Each `pr/` branch holds one part of this topic on top of upstream and says in its `BRANCH.md` what it is based on. `main` holds all of them.
+
+| Branch | Based on |
+|---|---|
+| `pr/hid` | upstream only |
+| `pr/lvgl-hid-input` | `pr/hid` |
+| `pr/lvgl-remote-input` | `pr/hid` |
