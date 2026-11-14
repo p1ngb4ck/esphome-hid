@@ -94,4 +94,4 @@ Each `pr/` branch holds one part of this topic on top of upstream and says in it
 |---|---|
 | `pr/hid` | upstream only |
 | `pr/lvgl-hid-input` | `pr/hid` |
-| `pr/lvgl-remote-input` | `pr/hid` |
+| `pr/lvgl-remote-input` | `pr/lvgl-hid-input` |
